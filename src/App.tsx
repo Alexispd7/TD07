@@ -14,7 +14,9 @@ type TodolistType = {
 type TasksStateType = {
     [key: string]: Array<TaskType>
 }
-
+type  TaskTask = {
+    key: string;
+}
 
 function App() {
     function removeTask(id: string, todolistId: string) {
